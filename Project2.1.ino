@@ -52,7 +52,7 @@ void loop()
           sparki.moveLeft();
         }
       }
-      // back on the black line so now we have to aligne ourselves
+      // back on the black line so now we have to align ourselves
       int lineRight  = sparki.lineRight();  // measure the right IR sensor
       int lineRightEdge = sparki.edgeRight();
       // if the right sensor is on the black line
